@@ -1,43 +1,49 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <title> Blizzard Stable</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link href="blizzard.css" rel="stylesheet">
+  <title>WoW Mounts</title>
+
 </head>
 
-<body>
-  <h1>WoW Mount List</h1>
-
-  <div class="wrapper">
-
-    <div class="controls">
-      <form>
-        <p>
-          <label for="search">Enter your Favorite Mount (required): </label>
-          <input type="text" id="search" class="search" required>
-        </p>
-        </p>
-        <p>
-          <button class="submit">Submit search</button>
-        </p>
-      </form>
-    </div>
-    <div class="results">
-      <nav>
-        <button class="prev">Previous 1</button>
-        <button class="next">Next 1</button>
-      </nav>
-      <section>
-      </section>
+<body class="background">
+  <div>
+    <h1 id="can-fly"></h1>
+    <div class="card" style="width: 18rem;">
+      <div class="card-body">
+        <h5 class="card-title">About my API</h5>
+        <p class="card-text">This API lists my favorite mounts and tell you if they are capable of flight, enjoy!</p>
+        <a href="https://us.shop.battle.net/en-us/family/world-of-warcraft" class="btn btn-primary">Purchase Mounts
+          Here!</a>
+      </div>
     </div>
   </div>
+  </div>
+  <h1>Matts Favorite Mounts</h1>
 
-    <script type='text/javascript' src='blizzard.js'> </script>
-    
-  
+  <div class="row">
 
+    <select id="ddMounts">
+      <option default>Select a mount...</option>
+    </select>
+  </div>
+  <div class="knockout"><a href="http://mksht.crisnoble.com" rel="Like cool shit? visit my site">Thanks for stopping by!</a></div>
+
+
+  <img class="render" id="imageDisplay">
+  </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <script src="blizzard.js"></script>
 
 </body>
 

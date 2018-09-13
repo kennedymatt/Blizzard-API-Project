@@ -1,71 +1,72 @@
 body {
-    font-family: sans-serif;
-  }
-  
-  .wrapper {
-    width: 80%;
-    margin: 0 auto;
-    display: flex;
-  }
-  
-  .controls, .results {
-    flex: 1;
-    padding: 10px;
-  }
-  
-  form p:nth-of-type(1) {
-    margin-top: 0;
-  }
-  
-  h1 {
-    text-align: center;
-  }
-  
-  h2 {
-    font-size: 20px;
-  }
-  
-  article p {
-    font-size: 14px;
-    line-height: 1.5;
-  }
-  
-  article p:nth-of-type(2) {
-    font-size: 14px;
-    line-height: 2;
-  }
-  
-  nav {
-    margin-bottom: 50px;
-  }
-  
-  .prev {
-    float: left;
-  }
-  
-  .next {
-    float: right;
-  }
-  
-  article {
-    padding: 10px;
-    margin-bottom: 20px;
-    background-color: #ddd;
-    border: 1px solid #ccc;
-  }
-  
-  img {
-    float: right;
-    margin-left: 20px;
-    max-width: 200px;
-  }
-  
-  .clearfix {
-    clear: both;
-  }
-  
-  span {
-    background-color: #ccc;
-    padding: 5px;
-    margin: 5px;
-  }
+  font-size: 67.5%;
+  font-family: Tahoma, Geneva, sans-serif;
+  background: #39150C url(https://i.stack.imgur.com/p9mUO.jpg) no-repeat;
+  padding: 5;
+  margin: 2;
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+}
+
+h1 {
+  color: #745b2f;
+  font-size: 2.0em;
+  margin: 0.5em 0 0.5em 0;
+  padding: 0;
+  text-decoration: underline;
+}
+
+h2 {
+  color: #708E7F;
+  font-size: 1.7em;
+  padding: 0px;
+  margin: 0.5em 0 0.35em 0;
+  text-decoration: underline;
+}
+
+.h5 {
+  color: #745b2f;
+  font-size: 4.0em;
+}
+
+.card {
+  color: #708E7F;
+}
+
+p {
+  font-size: 2.0em;
+  line-height: 1.4em;
+  color: #708E7F;
+  padding: 0px;
+  margin: 0px 0.5em 0.75em 0px;
+}
+
+a, a:visited {
+  color: #708E7F;
+}
+
+a:hover {
+  color: #333;
+}
+
+header {
+  padding: 2.5em 0 0.5em;
+  margin: 0 0 2.0em;
+  background: rgb(145, 36, 36) object 0px;
+
+}
+
+
+.knockout {
+  background: url(http://apod.nasa.gov/apod/image/0603/coma_misti.jpg) -80px -80px;
+    color: red;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-weight: bold;
+  font-size: 100px;
+  font-family: arial, helvetica;
+  width: 600px;
+  margin: 50px auto;
+}
